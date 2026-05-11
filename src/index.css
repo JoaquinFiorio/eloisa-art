@@ -712,7 +712,8 @@ button {
 
 @media (max-width: 400px) {
   .gallery-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
   }
 
