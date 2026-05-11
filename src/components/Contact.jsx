@@ -30,12 +30,12 @@ export default function Contact() {
 
           <div className="contact-info-item">
             <div className="contact-info-label">Email</div>
-            <div className="contact-info-value">hola@eloisa.art</div>
+            <div className="contact-info-value">eloisaramundo@gmail.com</div>
           </div>
 
           <div className="contact-info-item">
             <div className="contact-info-label">Estudio</div>
-            <div className="contact-info-value">Buenos Aires, Argentina</div>
+            <div className="contact-info-value">Pergamino, Buenos Aires</div>
           </div>
 
           <div className="contact-info-item">
@@ -55,9 +55,9 @@ export default function Contact() {
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
         >
-          <button type="button" className="submit-btn">
+          <a href='https://wa.link/0z7vzu' target='_blank' type="button" className="submit-btn">
             Enviar mensaje <span>→</span>
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
