@@ -38,7 +38,7 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
         >
-          Lo que nace del pecho
+          Mi Historia
         </motion.div>
 
         <h1 className="hero-title">

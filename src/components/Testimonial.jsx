@@ -26,20 +26,8 @@ export default function Testimonial() {
         initial="hidden"
         animate={isInView ? 'visible' : 'hidden'}
       >
-        Cuando estoy frente a una de sus obras, <em>siento</em> antes de entender.
-        Y eso es lo que siempre busco en el arte — que me <em>toque</em> sin pedir permiso.
+        Dicen que las <em>manos</em> guardan la <em>memoria</em> de todo lo que han construido. Cada línea y cada marca en estas manos es una historia de <em>entrega</em>.
       </motion.blockquote>
-
-      <motion.div
-        className="testimonial-author"
-        custom={0.3}
-        variants={fadeUp}
-        initial="hidden"
-        animate={isInView ? 'visible' : 'hidden'}
-      >
-        <div className="testimonial-author-name">Valentina Reyes</div>
-        <div className="testimonial-author-role">Coleccionista — Buenos Aires</div>
-      </motion.div>
     </section>
   )
 }

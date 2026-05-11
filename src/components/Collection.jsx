@@ -17,9 +17,9 @@ const collections = [
     year: 'Colección 2026',
     description: 'El cuerpo femenino se fusiona con la mariposa en un gesto íntimo de introspección y cambio.',
     works: [
-      { src: avatar1, title: 'Aire', medium: 'Óleo sobre lienzo · 100×120cm' },
-      { src: avatar2, title: 'Agua', medium: 'Acrílico mixto · 80×100cm' },
-      { src: avatar3, title: 'Fuego', medium: 'Técnica mixta · 90×110cm' },
+      { src: avatar1, title: 'Aire', medium: 'Lapiz sobre lienzo · 25x35cm' },
+      { src: avatar2, title: 'Agua', medium: 'Lapiz sobre lienzo · 25x35cm' },
+      { src: avatar3, title: 'Fuego', medium: 'Lapiz sobre lienzo · 25x35cm' },
     ],
   },
   {
@@ -28,9 +28,9 @@ const collections = [
     year: 'Colección 2025',
     description: 'El cuerpo femenino se fusiona con la mariposa en un gesto íntimo de introspección y cambio.',
     works: [
-      { src: mariposa1, title: 'Frontera', medium: 'Óleo sobre lienzo · 130×160cm' },
-      { src: mariposa2, title: 'Horizonte', medium: 'Acrílico sobre tabla · 70×90cm' },
-      { src: mariposa3, title: 'Desplazamiento', medium: 'Collage y acrílico · 100×120cm' },
+      { src: mariposa1, title: 'Frontera', medium: 'Lapiz sobre lienzo · 21x30cm' },
+      { src: mariposa2, title: 'Horizonte', medium: 'Lapiz sobre lienzo · 21x30cm' },
+      { src: mariposa3, title: 'Desplazamiento', medium: 'Lapiz sobre lienzo · 21x30cm' },
     ],
   }
 ]

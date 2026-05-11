@@ -1,10 +1,12 @@
 import { useEffect, useRef } from 'react'
+import { useModal } from './ModalContext'
 
 export default function CustomCursor() {
   const dotRef = useRef(null)
   const ringRef = useRef(null)
   const mousePos = useRef({ x: 0, y: 0 })
   const ringPos = useRef({ x: 0, y: 0 })
+  const { image } = useModal()
 
   useEffect(() => {
     const isMobile = window.matchMedia('(max-width: 768px)').matches
@@ -29,7 +31,7 @@ export default function CustomCursor() {
 
     window.addEventListener('mousemove', handleMouseMove)
 
-    const interactiveElements = document.querySelectorAll('a, button, .gallery-item, .collection-card, input, textarea')
+    const interactiveElements = document.querySelectorAll('a, button, .gallery-item, .collection-card, input, textarea, .collection-work-image-wrap, .hero-floating-image, .about-image-container, .collection-trigger-cover')
     interactiveElements.forEach(el => {
       el.addEventListener('mouseenter', handleHoverStart)
       el.addEventListener('mouseleave', handleHoverEnd)
@@ -55,6 +57,14 @@ export default function CustomCursor() {
       cancelAnimationFrame(rafId)
     }
   }, [])
+
+  if (image) {
+    if (dotRef.current) dotRef.current.style.display = 'none'
+    if (ringRef.current) ringRef.current.style.display = 'none'
+  } else {
+    if (dotRef.current) dotRef.current.style.display = ''
+    if (ringRef.current) ringRef.current.style.display = ''
+  }
 
   return (
     <>

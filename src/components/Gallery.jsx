@@ -65,7 +65,7 @@ export default function Gallery() {
           <h2 className="section-title">Un poco de mi <em>Arte</em></h2>
         </div>
         <p className="section-subtitle">
-          Cosas que no sabía que llevaba adentro hasta que las vi en la tela
+          Cosas que no sabía que llevaba adentro hasta que las vi en el lienzo
         </p>
       </motion.div>
 
