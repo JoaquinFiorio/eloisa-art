@@ -1465,6 +1465,7 @@ button {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   overflow: hidden;
+  text-align: center;
 }
 
 .lightbox-backdrop {
